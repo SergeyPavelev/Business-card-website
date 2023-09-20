@@ -1,14 +1,24 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+
+    <link rel="stylesheet" href="{% static "main/css/main.css" %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <h1 class="heading-name">ЛАРИСА МАЙСКАЯ</h1>
-        <p class="coach">ВЕДУЩАЯ</p>
+        <h1 class="heading-name">
+            <span class="user-name">LARISA</span> <span class="user-first-name">MAISKAIA</span>
+        </h1>
+        <p class="coach">COACH</p>
     </header>
     <main>
         <div>
@@ -31,7 +41,7 @@
                     <li>
                         <h2>/01</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, minima
-                            ipsum non hic distinctio nisi.!</p>
+                            ipsum non hic distinctio nisi.</p>
                     </li>
                     <li>
                         <h2>/02</h2>
@@ -48,7 +58,9 @@
         </div>
     </main>
     <footer>
-        <p class="phrase-in-footer">ЭТО ДЛЯ ТЕБЯ, ЕСЛИ ТЫ</p>
+        <div>
+            <p class="phrase-in-footer">ЭТО ДЛЯ ТЕБЯ, ЕСЛИ ТЫ</p>
+        </div>
     </footer>
 </body>
 </html>
