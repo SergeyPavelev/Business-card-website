@@ -47,12 +47,12 @@ table {
 .header {
     display: flex;
     height: 450px;
-    background-color: #5b683d;
+    background-color: #7F9257;
     color: #fff;
 }
 
 .heading-name {
-    padding: 60px;
+    padding: 80px;
     font-size: 120px;
     font-family: 'Inter', sans-serif;
     font-family: 'League Spartan', sans-serif;
@@ -69,5 +69,38 @@ table {
     padding-bottom: 20px;
     bottom: -420px;
     right: -200px;
-    /* height: 200px; */
+}
+
+.desc-and-links-about-me {
+    padding: 65px 150px;
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+.about-my-work {
+    margin-bottom: 50px;
+    padding: 0px 100px;
+}
+
+.link-in-main-to-services {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    border: #7F9257, solid, 10px;
+    text-decoration: none;
+    color: #7F9257;
+    border: #7F9257 solid 3px;
+    width: 100px;
+}
+
+#first-link-services {
+    color: #FFF;
+    background-color: #7F9257;
+    text-align: center;
+}
+
+#second-link-services {
+    margin-top: 20px;
+    text-align: center;
 }
